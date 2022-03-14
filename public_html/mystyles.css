@@ -1,0 +1,33 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 13, 2022, 1:37:03 PM
+    Author     : fenila
+*/
+
+.container-fluid{
+    background-color: #99ffcc;
+}
+.banner{
+    background-color:#ffff00;
+}
+.main-heading{
+    font-size: 50px;
+    color:red;
+}
+.sub-head{
+    font-size: 30px;
+    color:black;
+}
+.open-path{
+    font-size: 15px;
+    text-decoration: underline;       
+}
+.group{
+    text-decoration: underline;
+    color:black;
+    font-size: 20px;
+        
+}
