@@ -7,7 +7,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : fenila
 */
 
-.container-fluid{
+.favourite-background{
     background-color: #99ffcc;
 }
 .banner{
@@ -21,10 +21,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     font-size: 30px;
     color:black;
 }
-.open-path{
+/*.open-path{
     font-size: 15px;
     text-decoration: underline;       
-}
+}*/
 .group{
     text-decoration: underline;
     color:black;
