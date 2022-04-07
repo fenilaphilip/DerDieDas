@@ -1,11 +1,4 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* 
-    Created on : Mar 13, 2022, 1:37:03 PM
-    Author     : fenila
-*/
+
 
 .favourite-background{
     background-color: #99ffcc;
@@ -21,13 +14,25 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     font-size: 30px;
     color:black;
 }
-/*.open-path{
-    font-size: 15px;
-    text-decoration: underline;       
-}*/
+#categories-container{
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+.left-side-bar{
+    background-color:grey;
+}
 .group{
     text-decoration: underline;
     color:black;
     font-size: 20px;
-        
+}
+.pointer{
+    cursor:pointer;
+}
+.buttonxx{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 200px;
 }
