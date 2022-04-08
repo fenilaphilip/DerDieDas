@@ -35,18 +35,11 @@
     color:red;
     text-align:center;
 }
-.headingplural{
-    padding: 10px 20px;
-    font-size: 20px;
-    border-radius: 20px;
-    width: 300px;
-   
-}
 .mybutton{
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 20px;
-    width: 200px;
+    width: 300px;
     background:wheat;
 }
 .mybutton1{
@@ -54,5 +47,6 @@
     font-size: 20px;
     border-radius: 20px;
     width: 300px;
-
+    text-align: center;
 }
+
