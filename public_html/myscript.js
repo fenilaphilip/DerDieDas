@@ -15,7 +15,11 @@ $(document).ready(function () {
     });
 });
 
+
 function foropen(category) {
-    $("#play-ground").load("data/" + category + ".json");
+    $.get("data/" + category + ".json",function(data,status){
+        console.log(data);
+        $("#openCategoryName").html(data.article +" "+ data.category);  
+    });
 
 }
