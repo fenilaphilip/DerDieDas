@@ -19,7 +19,3 @@ function foropen(category) {
     $("#play-ground").load("data/" + category + ".json");
 
 }
-
-$("buttonxx").click(function () {
-
-});

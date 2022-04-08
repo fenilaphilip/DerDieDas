@@ -1,0 +1,56 @@
+
+{
+    "article": "Der",
+    "category": "Monat",
+    "plural": " Die Monate",
+    "words": [
+        {
+            "atk": "der",
+            "nom": "Januar"
+        },
+        {
+            "atk": "der",
+            "nom": "Feburar"
+        },
+        {
+            "atk": "der",
+            "nom": "März"
+        },
+        {
+            "atk": "der",
+            "nom": "April"
+        },
+        {
+            "atk": "der",
+            "nom": "Mai"
+        },
+        {
+            "atk": "der",
+            "nom": "Juni"
+        },
+        {
+            "atk": "der",
+            "nom": "juli"
+        },
+        {
+            "atk": "der",
+            "nom": "August"
+        },
+        {
+            "atk": "der",
+            "nom": "September"
+        },
+        {
+            "atk": "der",
+            "nom": "Oktober"
+        },
+        {
+            "atk": "der",
+            "nom": "November"
+        },
+        {
+            "atk": "der",
+            "nom": "Dezember"
+        }
+    ]
+}

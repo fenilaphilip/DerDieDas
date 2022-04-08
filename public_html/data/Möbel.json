@@ -1,0 +1,79 @@
+
+{
+    "article": "Das",
+    "category": "Möbel",
+    "plural": " Die Möbel",
+    "words": [
+        {
+            "atk": "der",
+            "nom": "Stüle",
+            "plu": "die Stühle"
+        },
+        {
+            "atk": "der",
+            "nom": "Tisch",
+            "plu": "die Tische"
+        },
+        {
+            "atk": "das",
+            "nom": "Sofa",
+            "plu": "die Sofas"
+        },
+        {
+            "atk": "der",
+            "nom": "Computer",
+            "plu": "die Computer"
+        },
+        {
+            "atk": "die",
+            "nom": "Lampe",
+            "plu": "die Lampen"
+        },
+        {
+            "atk": "das",
+            "nom": "Bett",
+            "plu": "die Betten"
+        },
+        {
+            "atk": "das",
+            "nom": "Bild",
+            "plu": "die Bilder"
+        },
+
+        {
+            "atk": "der",
+            "nom": "Garderobenständer",
+            "plu": "die Garderobenständer"
+        },
+        {
+            "atk": "das",
+            "nom": "Bücherregal",
+            "plu": "die Bücherregale"
+        },
+        {
+            "atk": "der",
+            "nom": "Schrank",
+            "plu": "die Schränke"
+        },
+        {
+            "atk": "der",
+            "nom": " Sessel",
+            "plu": "die  Sessel"
+        },
+        {
+            "atk": "der",
+            "nom": "Spiegel",
+            "plu": "die Spiegel"
+        },
+        {
+            "atk": "die",
+            "nom": "Kommode",
+            "plu": "die Kommoden"
+        },
+        {
+            "atk": "die",
+            "nom": "Vitrine",
+            "plu": "die Vitrinen"
+        }
+    ]
+}

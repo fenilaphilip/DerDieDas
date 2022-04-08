@@ -1,0 +1,80 @@
+
+{
+    "article": "Das",
+    "category": "Gemüse",
+    "plural": " Die Gemüse", 
+    "words": [
+        {
+            "atk": "die",
+            "nom": "Tomate",
+            "plu": "die Tomaten"
+        },
+        {
+            "atk": "der",
+            "nom": "Blumenkohl",
+            "plu": "Blumenkohle"
+        },
+        {
+            "atk": "der",
+            "nom": " Knoblauch",
+            "plu": "die Knoblauche"
+        },
+        {
+            "atk": "die",
+            "nom": "Zwiebel",
+            "plu": "die Zwiebeln"
+        },
+        {
+            "atk": "die",
+            "nom": "Karotte",
+            "plu": "die Karotten"
+        },
+        {
+            "atk": "die",
+            "nom": "Kartoffel",
+            "plu": "die Kartoffeln"
+        },
+        {
+            "atk": "der",
+            "nom": "Kürbis",
+            "plu": "die Kürbisse"
+        },
+        {
+            "atk": "der",
+            "nom": "Lauch",
+            "plu": "die Lauche"
+        },
+        {
+            "atk": "der",
+            "nom": "Mais",
+            "plu": "die Maise"
+        },
+        {
+            "atk": "der",
+            "nom": "Paprika",
+            "plu": "die Paprikas"
+        },
+        {
+            "atk": "die",
+            "nom": "Avocado",
+            "plu": "die Avocados"
+        },
+        {
+            "atk": "die",
+            "nom": "Erbse",
+            "plu": "die Erbsen"
+        },
+        {
+            "atk": "die",
+            "nom": "Gurke",
+            "plu": "die Gurken"
+        },
+        {
+            "atk": "die",
+            "nom": " Rote Bete",
+            "plu": "die roten Beten"
+        }
+
+    ]
+}
+

@@ -1,0 +1,37 @@
+
+{
+    "article":"Die",
+    "category":"Woche",
+    "plural":" Die Wochen",
+    "words": [
+        {
+            "atk": "der",
+            "nom": "Montag"
+        },
+        {
+            "atk": "der",
+            "nom": "Dienstag"
+        },
+        {
+            "atk": "der",
+            "nom": "Mittwoch"
+        },
+        {
+            "atk": "der",
+            "nom": "Donnerstag"
+        },
+        {
+            "atk": "der",
+            "nom": "Fritag"
+        },
+        {
+            "atk": "der",
+            "nom": "Samstag"
+        },
+        {
+            "atk": "der",
+            "nom": "Sontag"
+        }
+    ]
+}
+

@@ -1,0 +1,63 @@
+
+{
+    "article": "das",
+    "category": "Obst",
+    "plural": "die Obst",
+    "words": [
+        {
+            "atk": "der",
+            "nom": "Apfel",
+            "plu": "die Äpfel"
+        }, 
+        {
+            "atk": "die",
+            "nom": "Banane",
+            "plu": "die Bananen"
+        },
+        {
+            "atk": "die",
+            "nom": "Erdbeere",
+            "plu": "die Erdbeeren"
+        },
+        {
+            "atk": "die",
+            "nom": "Zitrone",
+            "plu": "die Zitronen"
+        },
+        {
+            "atk": "die",
+            "nom": "Traube",
+            "plu": "die Trauben"
+        },
+        { 
+            "atk": "die",
+            "nom": "Orange",
+            "plu": "die Orangen"
+        }, 
+        {
+            "atk": "die",
+            "nom": "Birne",
+            "plu": "die Birnen"
+        },
+        {
+            "atk": "die",
+            "nom": "Ananas",
+            "plu": "die Ananase"
+        },
+        {
+            "atk": "die",
+            "nom": "Kiwi",
+            "plu": "die Kiwis"
+        },
+        {
+            "atk": "die",
+            "nom": "Wassermelone",
+            "plu": "die Wassermelonen"
+        },
+        {
+            "atk": "die",
+            "nom": "Kirsche",
+            "plu": "die Kirschen"
+        }
+    ]
+}
