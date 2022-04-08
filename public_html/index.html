@@ -44,22 +44,26 @@
                         <ul id="categories-container" ></ul>
                     </div>
                 </div>
-                <div class="col pt-2">
-                    <div id="openCategoryName">
-                        Catergory Name with Artikel as heading.     
-                    </div>
-                    <div class="choose-artikel p-4">
-                        <button type="button" class="mybutton btn-outline-primary btn-lg p-2" >Der</button>
-                        <button type="button" class="mybutton btn-outline-primary btn-lg p-2" >Die</button>
-                        <button type="button" class="mybutton btn-outline-primary btn-lg p-2" >Das</button>
-
-                    </div>
-                    <div>
-                        <div>
-                            <span id ="play-ground"></span>
+                <div class="container col pt-2">
+                    <div id= "game-area">
+                        <div id="openCategoryName">
+                            Catergory Name with Artikel as heading.     
                         </div>
-                        <div>                       
-                            <button type="button" class="mybutton1 btn-white btn-outline-success btn-block p-2" >Submit</button>
+                        <div class="choose-artikel text-center p-4">
+                            <button type="button" class="mybutton btn-outline-primary btn-lg p-2" >Der</button>
+                            <button type="button" class="mybutton btn-outline-primary btn-lg p-2" >Die</button>
+                            <button type="button" class="mybutton btn-outline-primary btn-lg p-2" >Das</button>
+
+                        </div>
+                        <div>
+                            <div>
+                                <span id ="play-ground"></span>
+                            </div>
+                            <div class ="text-center">                       
+                                <button type="button" id="next-button" 
+                                        class="btn-white btn-outline-success btn-block p-2"
+                                        onclick="on_next_button_clicked()"> Next</button>
+                            </div>
                         </div>
                     </div>
                 </div>
