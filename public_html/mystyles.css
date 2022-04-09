@@ -31,9 +31,10 @@
     cursor:pointer;
 }
 #openCategoryName{
-    font-size: 50px;
+    font-size: 100px;
     color:red;
     text-align:center;
+    text-decoration: underline;
 }
 
 .mybutton{
@@ -43,11 +44,15 @@
     width: 300px;
     background:wheat;
 }
+#play-ground{
+    text-align: center;
+    font-size:150px;
+}
 
-#next-button{
+#next-button,#previous-button{
     padding: 10px 20px;
     font-size: 20px;
-    border-radius: 20px;
+
     width: 200px;
     text-align: center;
 }
