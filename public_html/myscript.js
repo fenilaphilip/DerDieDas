@@ -16,25 +16,39 @@ $(document).ready(function () {
 });
 
 let cat_data;
-
+let now_displayed;
 function on_category_clicked(category) {
     $.get("data/" + category + ".json", function (data, status) {
         cat_data = data;
+        now_displayed = -1;
         $("#openCategoryName").html(data.article + " " + data.category);
         on_next_button_clicked();
         $("#about").hide();
         $("#how-to-play").hide();
         $("#game-area").show();
+        $("#previous-button").hide();
+
     });
 
 }
 
-function on_previous_button_clicked() {
-    $("#play-ground").html(cat_data.words[0].nom);
+function on_next_button_clicked() {
+    $("#previous-button").show();
+    now_displayed++;
+    $("#play-ground").html(cat_data.words[now_displayed].nom);
+    if (now_displayed === (cat_data.words.length - 1)) {
+        $("#next-button").hide();
+
+    }
 }
 
-function on_next_button_clicked() {
-    $("#play-ground").html(cat_data.words[1].nom);
+function on_previous_button_clicked() {
+    $("#next-button").show();
+    now_displayed--;
+    $("#play-ground").html(cat_data.words[now_displayed].nom);
+    if (now_displayed === 0) {
+        $("#previous-button").hide();
+    }
 }
 
 function nav_about_clicked() {
