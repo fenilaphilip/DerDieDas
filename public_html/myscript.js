@@ -13,6 +13,16 @@ $(document).ready(function () {
             $("#categories-container").append(category);
         }
     });
+    $("#der-button").click(function () {
+        article_button_clicked("der");
+    });
+    $("#die-button").click(function () {
+        article_button_clicked("die");
+    });
+    $("#das-button").click(function () {
+        article_button_clicked("das");
+    });
+
 });
 
 let cat_data;
@@ -61,4 +71,21 @@ function nav_how_to_play_clicked() {
     $("#game-area").hide();
     $("#about").hide();
     $("#how-to-play").show();
+}
+
+function article_button_clicked(button_clicked) {
+    if (cat_data.words[now_displayed].atk === button_clicked) {
+        $("#play-ground").html("You are right! <br> "
+                + cat_data.words[now_displayed].atk + " "
+                + cat_data.words[now_displayed].nom
+                + "<br> In plural form <br>"
+                + cat_data.words[now_displayed].plu);
+    } else {
+        $("#play-ground").html("Correct Answer is <br> "
+                + cat_data.words[now_displayed].atk + " "
+                + cat_data.words[now_displayed].nom
+                + "<br> In plural form <br>"
+                + cat_data.words[now_displayed].plu);
+    }
+
 }
