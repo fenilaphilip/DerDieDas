@@ -45,8 +45,8 @@
     background:wheat;
 }
 #play-ground{
-    text-align: center;
-    font-size: 100px;
+    text-align: left;
+    font-size: 75px;
 }
 
 #next-button,#previous-button{
@@ -58,5 +58,19 @@
 
 #game-area,#about,#how-to-play,#contact{
     min-height: 500px;
+}
+
+#plural-panel, #plural-flip {
+    padding: 5px;
+    text-align: center;
+    background-color: cadetblue;
+    border: solid 1px violet ;
+    color: greenyellow;
+    font-size: 20px;
+}
+
+#plural-panel {
+    padding: 50px;
+    display: none;
 }
 

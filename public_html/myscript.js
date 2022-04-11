@@ -23,6 +23,10 @@ $(document).ready(function () {
         article_button_clicked("das");
     });
 
+    $("#plural-flip").click(function () {
+       clicked_to_view_plural();
+    });
+
 });
 
 let cat_data;
@@ -38,6 +42,7 @@ function on_category_clicked(category) {
         $("#contact").hide();
         $("#game-area").show();
         $("#previous-button").hide();
+        $("#plural-panel").slideToggle();
 
     });
 
@@ -46,7 +51,13 @@ function on_category_clicked(category) {
 function on_next_button_clicked() {
     $("#previous-button").show();
     now_displayed++;
+    $("#play-ground").css("color", "black");
+    $("#der-button").show();
+    $("#die-button").show();
+    $("#das-button").show();
+    $("#plural-panel").slideToggle();
     $("#play-ground").html(cat_data.words[now_displayed].nom);
+
     if (now_displayed === (cat_data.words.length - 1)) {
         $("#next-button").hide();
 
@@ -56,7 +67,13 @@ function on_next_button_clicked() {
 function on_previous_button_clicked() {
     $("#next-button").show();
     now_displayed--;
+    $("#der-button").show();
+    $("#die-button").show();
+    $("#das-button").show();
+    $("#play-ground").css("color", "black");
+    $("#plural-panel").slideToggle();
     $("#play-ground").html(cat_data.words[now_displayed].nom);
+
     if (now_displayed === 0) {
         $("#previous-button").hide();
     }
@@ -74,8 +91,9 @@ function nav_how_to_play_clicked() {
     $("#about").hide();
     $("#contact").hide();
     $("#how-to-play").show();
+
 }
-function nav_contact_clicked(){
+function nav_contact_clicked() {
     $("#game-area").hide();
     $("#about").hide();
     $("#how-to-play").hide();
@@ -84,17 +102,27 @@ function nav_contact_clicked(){
 
 function article_button_clicked(button_clicked) {
     if (cat_data.words[now_displayed].atk === button_clicked) {
-        $("#play-ground").html("You are right! <br> "
-                + cat_data.words[now_displayed].atk + " "
-                + cat_data.words[now_displayed].nom
-                + "<br> In plural form <br>"
-                + cat_data.words[now_displayed].plu);
+        $("#play-ground").html(cat_data.words[now_displayed].atk + " "
+                + cat_data.words[now_displayed].nom);
+        
+        $("#play-ground").css("color", "green");
+        $("#der-button").hide();
+        $("#die-button").hide();
+        $("#das-button").hide();
+
     } else {
-        $("#play-ground").html("Correct Answer is <br> "
-                + cat_data.words[now_displayed].atk + " "
-                + cat_data.words[now_displayed].nom
-                + "<br> In plural form <br>"
-                + cat_data.words[now_displayed].plu);
+        $("#play-ground").html(cat_data.words[now_displayed].atk + " "
+                + cat_data.words[now_displayed].nom);
+        
+        $("#play-ground").css("color", "red");
+        $("#der-button").hide();
+        $("#die-button").hide();
+        $("#das-button").hide();
     }
 
 }
+
+function clicked_to_view_plural() {
+    $("#plural-panel").slideToggle("slow");
+    $("#plural-panel").html(cat_data.words[now_displayed].plu);
+}   
