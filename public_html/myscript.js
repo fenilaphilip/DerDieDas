@@ -35,6 +35,7 @@ function on_category_clicked(category) {
         on_next_button_clicked();
         $("#about").hide();
         $("#how-to-play").hide();
+        $("#contact").hide();
         $("#game-area").show();
         $("#previous-button").hide();
 
@@ -64,13 +65,21 @@ function on_previous_button_clicked() {
 function nav_about_clicked() {
     $("#game-area").hide();
     $("#how-to-play").hide();
+    $("#contact").hide();
     $("#about").show();
 }
 
 function nav_how_to_play_clicked() {
     $("#game-area").hide();
     $("#about").hide();
+    $("#contact").hide();
     $("#how-to-play").show();
+}
+function nav_contact_clicked(){
+    $("#game-area").hide();
+    $("#about").hide();
+    $("#how-to-play").hide();
+    $("#contact").show();
 }
 
 function article_button_clicked(button_clicked) {

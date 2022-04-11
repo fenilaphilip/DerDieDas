@@ -56,7 +56,7 @@
     text-align: center;
 }
 
-#game-area,#about,#how-to-play{
+#game-area,#about,#how-to-play,#contact{
     min-height: 500px;
 }
 
