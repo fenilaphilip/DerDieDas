@@ -80,6 +80,7 @@ function nav_about_clicked() {
     $("#game-area").hide();
     $("#how-to-play").hide();
     $("#contact").hide();
+    $("#selection-category").hide();
     $("#about").show();
 }
 
@@ -87,6 +88,7 @@ function nav_how_to_play_clicked() {
     $("#game-area").hide();
     $("#about").hide();
     $("#contact").hide();
+    $("#selection-category").hide();
     $("#how-to-play").show();
 
 }
@@ -94,7 +96,16 @@ function nav_contact_clicked() {
     $("#game-area").hide();
     $("#about").hide();
     $("#how-to-play").hide();
+    $("#selection-category").hide();
     $("#contact").show();
+}
+
+function nav_category() {
+    $("#game-area").hide();
+    $("#about").hide();
+    $("#how-to-play").hide();
+    $("#contact").hide();
+    $("#selection-category").show();
 }
 
 function article_button_clicked(button_clicked) {
