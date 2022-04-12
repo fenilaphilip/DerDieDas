@@ -1,0 +1,176 @@
+
+{
+    "article": "Das",
+    "category": "Tier",
+    "plural": " Die Tiere", 
+    "words": [
+        {
+            "atk": "der",
+            "nom": "Hund",
+            "plu": "die Hunde",
+            "eng":"dog"
+        },
+        {
+            "atk": "die",
+            "nom": "Katze",
+            "plu": "die Katzen",
+            "eng":"cat"
+        },
+        {
+            "atk": "die",
+            "nom": "Kuh",
+            "plu": "die Kühe",
+            "eng":"cow"
+        },
+        {
+            "atk": "die",
+            "nom": "Ratte",
+            "plu": "die Ratten",
+            "eng":"rat"
+        },
+        {
+            "atk": "der",
+            "nom": "Stier",
+            "plu": "die Stiere",
+            "eng":"bull"
+        },
+        {
+            "atk": "das",
+            "nom": "Pferd",
+            "plu": "die Pferde",
+            "eng":"horse"
+        },
+        {
+            "atk": "der",
+            "nom": "Esel",
+            "plu": "die Esel",
+            "eng":"donkey"
+        },
+        {
+            "atk": "das",
+            "nom": "Schwein",
+            "plu": "die Schweine",
+            "eng":"pig"
+        },
+        {
+            "atk": "das",
+            "nom": "Schaf",
+            "plu": "die Schafe",
+            "eng":"sheep"
+        },
+        {
+            "atk": "die",
+            "nom": "Ziege",
+            "plu": "die Ziegen",
+            "eng":"goat"
+        },
+        {
+            "atk": "die",
+            "nom": "Henne",
+            "plu": "die Hennen",
+            "eng":"chicken"
+        },
+        {
+            "atk": "die",
+            "nom": "Ente",
+            "plu": "die Enten",
+            "eng":"duck"
+        },
+        {
+            "atk": "die",
+            "nom": "Gans",
+            "plu": "die Gänse",
+            "eng":"goose"
+        },
+        {
+            "atk": "der",
+            "nom": "Affe",
+            "plu": "die Affen",
+            "eng":"monkey"
+        },
+        {
+            "atk": "der",
+            "nom": "Bär",
+            "plu": "die Bären",
+            "eng":"bear"
+        },
+        {
+            "atk": "das",
+            "nom": "Eichhörnchen",
+            "plu": "die Eichhörnchen",
+            "eng":"squirrel"
+        },
+        {
+            "atk": "der",
+            "nom": "Elefant",
+            "plu": "die Elefanten",
+            "eng":"elephant"
+        },
+        {
+            "atk": "die",
+            "nom": "Fledermaus",
+            "plu": "die Fledermäuse",
+            "eng": "bat"
+        },
+        {
+            "atk": "die",
+            "nom": "Giraffe",
+            "plu": "die Giraffen",
+            "eng":"giraffe"
+        },
+        {
+            "atk": "der",
+            "nom": "Fuchs",
+            "plu": "die Füchse",
+            "eng":"fox"
+        },
+        {
+            "atk": "der",
+            "nom": "Hirsch",
+            "plu": "die Hirsche",
+            "eng":"deer"
+        },
+        {
+            "atk": "das",
+            "nom": "Kamel",
+            "plu": "die Kamele",
+            "eng":"camel"
+        },
+        {
+            "atk": "das",
+            "nom": "Kaninchen",
+            "plu": "die Kaninchen",
+            "eng":"rabbit"
+        },
+        {
+            "atk": "die",
+            "nom": "Maus",
+            "plu": "die Mäuse",
+            "eng":"mouse"
+        },
+        {
+            "atk": "der",
+            "nom": "Löwe",
+            "plu": "die Löwen",
+            "eng":"lion"
+        },
+        {
+            "atk": "der",
+            "nom": "Tiger",
+            "plu": "die Tiger",
+            "eng":"tiger"
+        },
+        {
+            "atk": "das",
+            "nom": "Zebra",
+            "plu": "die Zebras",
+            "eng":"Zebra"
+        },
+        {
+            "atk": "der",
+            "nom": "Wölf",
+            "plu": "die Wölfe",
+            "eng":"wolf"
+        }
+    ]
+}
