@@ -22,11 +22,9 @@ $(document).ready(function () {
     $("#das-button").click(function () {
         article_button_clicked("das");
     });
-
     $("#plural-flip").click(function () {
-       clicked_to_view_plural();
+        clicked_to_view_plural();
     });
-
 });
 
 let cat_data;
@@ -42,8 +40,7 @@ function on_category_clicked(category) {
         $("#contact").hide();
         $("#game-area").show();
         $("#previous-button").hide();
-        $("#plural-panel").slideToggle();
-
+        $("#plural-panel").hide();
     });
 
 }
@@ -55,7 +52,7 @@ function on_next_button_clicked() {
     $("#der-button").show();
     $("#die-button").show();
     $("#das-button").show();
-    $("#plural-panel").slideToggle();
+    $("#plural-panel").slideUp();
     $("#play-ground").html(cat_data.words[now_displayed].nom);
 
     if (now_displayed === (cat_data.words.length - 1)) {
@@ -71,7 +68,7 @@ function on_previous_button_clicked() {
     $("#die-button").show();
     $("#das-button").show();
     $("#play-ground").css("color", "black");
-    $("#plural-panel").slideToggle();
+    $("#plural-panel").slideUp();
     $("#play-ground").html(cat_data.words[now_displayed].nom);
 
     if (now_displayed === 0) {
@@ -104,7 +101,7 @@ function article_button_clicked(button_clicked) {
     if (cat_data.words[now_displayed].atk === button_clicked) {
         $("#play-ground").html(cat_data.words[now_displayed].atk + " "
                 + cat_data.words[now_displayed].nom);
-        
+
         $("#play-ground").css("color", "green");
         $("#der-button").hide();
         $("#die-button").hide();
@@ -113,7 +110,7 @@ function article_button_clicked(button_clicked) {
     } else {
         $("#play-ground").html(cat_data.words[now_displayed].atk + " "
                 + cat_data.words[now_displayed].nom);
-        
+
         $("#play-ground").css("color", "red");
         $("#der-button").hide();
         $("#die-button").hide();
@@ -123,6 +120,7 @@ function article_button_clicked(button_clicked) {
 }
 
 function clicked_to_view_plural() {
-    $("#plural-panel").slideToggle("slow");
+    $("#plural-panel").show();
+    $("#plural-panel").slideDown("slow");
     $("#plural-panel").html(cat_data.words[now_displayed].plu);
 }   

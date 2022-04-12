@@ -1,0 +1,148 @@
+
+{
+    "article": "Die",
+    "category": "Familie",
+    "plural": " Die Familien", 
+    "words": [
+        {
+            "atk": "die",
+            "nom": "Mutter",
+            "plu": "die Mütter"
+        },
+        {
+            "atk": "der",
+            "nom": "Vater",
+            "plu": "die Väter"
+        },
+        {
+            "atk": "die",
+            "nom": "Tochter",
+            "plu": "die Töchter"
+        },
+        {
+            "atk": "die",
+            "nom": "Tante",
+            "plu": "die Tanten"
+        },
+        {
+            "atk": "das",
+            "nom": "Baby",
+            "plu": "die Babys"
+        },
+        {
+            "atk": "der",
+            "nom": "Junge",
+            "plu": "die Jungen"
+        },
+        {
+            "atk": "der",
+            "nom": "Bruder",
+            "plu": "die Brüder"
+        },
+        {
+            "atk": "der",
+            "nom": "Schwager",
+            "plu": "die Schwäger"
+        },
+        {
+            "atk": "das",
+            "nom": "Kind",
+            "plu": "die Kinder"
+        },
+        {
+            "atk": "die",
+            "nom": "Kusine",
+            "plu": "die Kusine"
+        },
+        {
+            "atk": "der",
+            "nom": "Stammbaum",
+            "plu": "die Stammbäume"
+        },
+        {
+            "atk": "die",
+            "nom": "Mädchen",
+            "plu": "die Mädchen"
+        },
+        {
+            "atk": "die",
+            "nom": "Großmutter",
+            "plu": "die Großmutter"
+        },
+        {
+            "atk": "der",
+            "nom": "Enkel",
+            "plu": "die Enkel"
+        }, 
+        {
+            "atk": "die",
+            "nom": "Enkelin",
+            "plu": "die Enkelinnen"
+        },
+        {
+            "atk": "der",
+            "nom": "Großvater",
+            "plu": "die Großväter"
+        },
+        {
+            "atk": "die",
+            "nom": "Oma",
+            "plu": "die Omas"
+        },
+        {
+            "atk": "der",
+            "nom": "Opa",
+            "plu": "die Opas"
+        },    
+        {
+            "atk": "der",
+            "nom": "Mann",
+            "plu": "die Männer"
+        },
+        {
+            "atk": "der",
+            "nom": "Neffe",
+            "plu": "die Neffen"
+        },
+        {
+            "atk": "der",
+            "nom": "Nichte",
+            "plu": "die Nichten"
+        },
+        {
+            "atk": "der",
+            "nom": "Neffe",
+            "plu": "die Neffen"
+        },
+        {
+            "atk": "der",
+            "nom": "Partner",
+            "plu": "die Partner"
+        },
+        {
+            "atk": "die",
+            "nom": "Patnerin",
+            "plu": "die Patnerinnen"
+        },
+        {
+            "atk": "die",
+            "nom": "Schwester",
+            "plu": "die Schwestern"
+        },
+        {
+            "atk": "der",
+            "nom": "Sohn",
+            "plu": "die Söhne"
+        },
+        {
+            "atk": "der",
+            "nom": "Onkel",
+            "plu": "die Onkel"
+        },
+        {
+            "atk": "die",
+            "nom": "Frau",
+            "plu": "die Frauen"
+        }
+    ]
+}
