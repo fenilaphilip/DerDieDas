@@ -6,10 +6,10 @@ $(document).ready(function () {
         console.log(data);
         for (i = 0; i < data.length; i++) {
             console.log(data[i]);
-            let category = "<li "
-                    + "class=\"pointer\" "
+            let category = "<li><a "
+                    + "class=\"dropdown-item\" "
                     + "onclick= \"on_category_clicked('" + data[i] + "')\" >"
-                    + data[i] + "</li>";
+                    + data[i] + "</a></li>";
             $("#categories-container").append(category);
         }
     });
@@ -88,7 +88,6 @@ function nav_how_to_play_clicked() {
     $("#game-area").hide();
     $("#about").hide();
     $("#contact").hide();
-    $("#selection-category").hide();
     $("#how-to-play").show();
 
 }
@@ -96,17 +95,9 @@ function nav_contact_clicked() {
     $("#game-area").hide();
     $("#about").hide();
     $("#how-to-play").hide();
-    $("#selection-category").hide();
     $("#contact").show();
 }
 
-function nav_category() {
-    $("#game-area").hide();
-    $("#about").hide();
-    $("#how-to-play").hide();
-    $("#contact").hide();
-    $("#selection-category").show();
-}
 
 function article_button_clicked(button_clicked) {
     if (cat_data.words[now_displayed].atk === button_clicked) {
