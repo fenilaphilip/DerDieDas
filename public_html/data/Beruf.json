@@ -1,0 +1,171 @@
+
+{
+
+    "article": "Der",
+    "category": "Beruf",
+    "plural": " Die Berufe", 
+    "words": [
+        {
+            "atk": "der",
+            "nom": "Architekt",
+            "plu": "die ",
+            "eng": "architect"
+        },
+        {
+            "atk": "der",
+            "nom": "Automechaniker",
+            "plu": "die ",
+            "eng": "auto mechanic"
+        },
+        {
+            "atk": "der",
+            "nom": "Bäcker",
+            "plu": "die ",
+            "eng": "baker"
+        },
+        {
+            "atk": "der",
+            "nom": "Busfahrer",
+            "plu": "die ",
+            "eng": "bus driver"
+        },
+        {
+            "atk": "der",
+            "nom": "Programmierer",
+            "plu": "die ",
+            "eng": "computer programer"
+        },
+        {
+            "atk": "die",
+            "nom": "Programmiererin",
+            "plu": "die ",
+            "eng": "computer programer female"
+        },
+        {
+            "atk": "der",
+            "nom": "Koch",
+            "plu": "die ",
+            "eng": "cook"
+        },
+        {
+            "atk": "die",
+            "nom": "Köchin",
+            "plu": "die ",
+            "eng": "cook-female"
+        },
+        {
+            "atk": "der",
+            "nom": "Arzt",
+            "plu": "die ",
+            "eng": "docter"
+        },
+        {
+            "atk": "die",
+            "nom": "Ärztin",
+            "plu": "die ",
+            "eng": "doctor-female"
+        },
+        {
+            "atk": "der",
+            "nom": "Journalist",
+            "plu": "die ",
+            "eng": "journalist"
+        },
+        {
+            "atk": "der",
+            "nom": "Musiker",
+            "plu": "die ",
+            "eng": "musician"
+        },
+        {
+            "atk": "der",
+            "nom": "Krankenpfleger",
+            "plu": "die ",
+            "eng": "male-nurse"
+        },
+        {
+            "atk": "die",
+            "nom": "Krankenschwester",
+            "plu": "die ",
+            "eng": "female-nurse"
+        },
+        {
+            "atk": "der",
+            "nom": "Fotograf",
+            "plu": "die ",
+            "eng": "photographer"
+        },
+        {
+            "atk": "die",
+            "nom": "Fotografin",
+            "plu": "die ",
+            "eng": "female-photographer"
+        },
+        {
+            "atk": "der",
+            "nom": "Sekretär",
+            "plu": "die ",
+            "eng": "secretary"
+        },
+        {
+            "atk": "der",
+            "nom": "Sekretärin",
+            "plu": "die ",
+            "eng": "female-secretary"
+        },
+        {
+            "atk": "der",
+            "nom": "Schüler",
+            "plu": "die ",
+            "eng": "school student-male"
+        },
+        {
+            "atk": "die",
+            "nom": "Schülerin",
+            "plu": "die ",
+            "eng": "school student-female"
+        },
+        {
+            "atk": "der",
+            "nom": "Student",
+            "plu": "die ",
+            "eng": "college student- male "
+        },
+        {
+            "atk": "die",
+            "nom": "Studentin",
+            "plu": "die ",
+            "eng": "college student- female"
+        },
+        {
+            "atk": "der",
+            "nom": "Taxifahrer",
+            "plu": "die ",
+            "eng": "taxi-driver"
+        },
+        {
+            "atk": "der",
+            "nom": "Lehrer",
+            "plu": "die ",
+            "eng": "male-teacher"
+        },
+        {
+            "atk": "die",
+            "nom": "lehrerin",
+            "plu": "die ",
+            "eng": "female teacher"
+        },
+        {
+            "atk": "der",
+            "nom": "Keller",
+            "plu": "die ",
+            "eng": "waiter"
+        },
+        {
+            "atk": "die",
+            "nom": "Kellnerin",
+            "plu": "die ",
+            "eng": "waitress"
+        }
+    ]
+}
