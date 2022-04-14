@@ -12,101 +12,116 @@
         <script src="jquery-3.6.0.js"></script>
     </head>
     <body>
-        <div class="container-fluid">
-            <div class="banner row p-2 ">
-                <div class="main-heading">
-                    Easy way to learn German words with artikel der,die,das.
-                </div>
-            </div>
-            <div class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid"> 
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" 
-                                   role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    CATAGORIES
-                                </a>
-                                <ul id="categories-container" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pointer" onclick="nav_how_to_play_clicked()"> HOW TO PLAY</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pointer" onclick="nav_about_clicked()">ABOUT</a>
-                            </li>
-                            <li class="nav-item"> 
-                                <a class="nav-link pointer" onclick="nav_contact_clicked()">CONTACT</a>
-                            </li>
-                        </ul>
+        <div  id="full-length-banner" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div id="BlackBg" class="navbar-expand-lg">
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" 
+                                       role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        CATAGORIES
+                                    </a>
+                                    <ul id="categories-container" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pointer" onclick="nav_how_to_play_clicked()"> HOW TO PLAY</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link pointer" onclick="nav_about_clicked()">ABOUT</a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a class="nav-link pointer" onclick="nav_contact_clicked()">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row favourite-background">
-                <div id="about" > Artikel is very important in German.</div>
-                <div id="selection-category">Categories</div>
-                <div id="how-to-play">Click one of the categories on the side bar.</div>
-                <div id="contact">
-                    Contact me <a href="https://www.linkedin.com/in/fenila-philip">
-                        on LinkedIn.
-                    </a>
+            <div class="container">
+                <div class="row">
+                    <div id="RedBg">DER, DIE, DAS</div>
+                    <div id="YellowBg">Artikles in Deutsch</div>
                 </div>
-                <div id= "game-area">
-                    <div id="openCategoryName">
-                        Catergory Name with Artikel as heading.     
+            </div> 
+            <div class="container">
+                <div class="row favourite-background p-2">
+                    <div id="about" > Artikel plays a vital role in German language. Learn the German 
+                        of each word along with its article. The words in German classified into three:
+                        <ul>
+                            <li>Masculine :<b>Der</b></li>
+                            <li>Feminine:<b>Die</b></li>
+                            <li>Neutral:<b>Das</b></li>
+                        </ul>                    
+                        Easy way to learn German words with artikel der,die,das. This site designed 
+                        to helping all the age-group people to study the language German.
                     </div>
-                    <div class="choose-artikel col text-center p-4">
-                        <div class="row">
-                            <div class="col-2">
-                                <div class="row pt-4">
-                                    <button type="button" id="der-button" 
-                                            class="btn-outline-primary btn-lg p-2" >Der</button>
-                                </div>
-                                <div class="row pt-4">
-                                    <button type="button" id="die-button" 
-                                            class="btn-outline-primary btn-lg p-2" >Die</button>
-                                </div>
-                                <div class="row pt-4">
-                                    <button type="button" id="das-button" 
-                                            class="btn-outline-primary btn-lg p-2" >Das</button>
-                                </div>
-
-                            </div>
-                            <div class="col">
-                                <div class="row pt-4">
-
-                                </div>
-                                <div class="row pt-4">
-
-                                </div>
-                                <div class =" row">
-                                    <span id ="play-ground"></span>
-                                </div>
-                            </div>
-
+                    <div id="how-to-play" class="pt-4">
+                        <div id="steps-for-play"> HOW TO PLAY</div>
+                    </div>
+                    <div id="contact">
+                        Contact me <a href="https://www.linkedin.com/in/fenila-philip">
+                            on LinkedIn.
+                        </a>
+                    </div>
+                    <div id= "game-area">
+                        <div id="openCategoryName">
+                            Catergory Name with Artikel as heading.     
                         </div>
-                        <div class="row pt-4">
-                            <div id="plural-flip" class="col text-center" onclick="clicked_to_view_plural()">
-                                click here to view plural
-                            </div>
-                            <div id="plural-panel" class="text-center">
+                        <div class="choose-artikel col text-center p-4">
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="row pt-4">
+                                        <button type="button" id="der-button" 
+                                                class="btn-outline-primary btn-lg p-2" >Der</button>
+                                    </div>
+                                    <div class="row pt-4">
+                                        <button type="button" id="die-button" 
+                                                class="btn-outline-primary btn-lg p-2" >Die</button>
+                                    </div>
+                                    <div class="row pt-4">
+                                        <button type="button" id="das-button" 
+                                                class="btn-outline-primary btn-lg p-2" >Das</button>
+                                    </div>
+
+                                </div>
+                                <div class="col">
+                                    <div class="row pt-4">
+
+                                    </div>
+                                    <div class="row pt-4">
+
+                                    </div>
+                                    <div class =" row">
+                                        <span id ="play-ground"></span>
+                                    </div>
+                                </div>
 
                             </div>
-                        </div>
-                        <div class="row pt-4">
-                            <div class="col">
-                                <div class="text-center">
-                                    <button type="button" id="previous-button" 
-                                            class="btn-white btn-outline-success btn-block p-2"
-                                            onclick="on_previous_button_clicked()"> Previous</button>
+                            <div class="row pt-4">
+                                <div id="plural-flip" class="col text-center" onclick="clicked_to_view_plural()">
+                                    click here to view plural
+                                </div>
+                                <div id="plural-panel" class="text-center">
+
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="text-center pt-2">
-                                    <button type="button" id="next-button" 
-                                            class="btn-white btn-outline-success btn-block p-2"
-                                            onclick="on_next_button_clicked()"> Next</button> 
+                            <div class="row pt-4">
+                                <div class="col">
+                                    <div class="text-center">
+                                        <button type="button" id="previous-button" 
+                                                class="btn-white btn-outline-success btn-block p-2"
+                                                onclick="on_previous_button_clicked()"> Previous</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="text-center pt-2">
+                                        <button type="button" id="next-button" 
+                                                class="btn-white btn-outline-success btn-block p-2"
+                                                onclick="on_next_button_clicked()"> Next</button> 
+                                    </div>
                                 </div>
                             </div>
                         </div>

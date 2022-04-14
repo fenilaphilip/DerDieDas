@@ -1,18 +1,32 @@
 
-
+#full-length-banner{
+    background: #999999;
+}
 .favourite-background{
-    background-color: #99ffcc;
+    background-color: #ccccff;
+    font-size: 20px;
 }
-.banner{
-    background-color:#ffff00;
+#BlackBg{
+    background: black;
 }
-.main-heading{
-    font-size: 40px;
-    color:red;
+#RedBg{
+    background: red;
+    font-size: 25px;
+    color:white;
+    text-align: center;
+}
+#YellowBg{
+    background: yellow;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+}
+.nav-link {
+    color: white;
 }
 #categories-container{
-    font-size: 30px;
-    text-decoration: underline;
+    font-size: 15px;
+    text-decoration: none;
 
 }
 .left-side-bar{
@@ -68,4 +82,8 @@
 #plural-panel {
     padding: 50px;
     display: none;
+}
+#steps-for-play{
+    color:blue;
+    text-decoration: underline;
 }
