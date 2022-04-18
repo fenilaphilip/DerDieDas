@@ -1,0 +1,200 @@
+
+{
+     "article": "Der",
+    "category": "Körper",
+    "plural": " Die die Körper", 
+    "words": [
+        {
+            "atk": "der",
+            "nom": "Kopf",
+            "plu": "die Köpfe",
+            "eng":"head"
+        },
+        {
+            "atk": "der",
+            "nom": "Arm",
+            "plu": "die Arme",
+            "eng":"arm"
+        },
+        {
+            "atk": "das",
+            "nom": "Bein",
+            "plu": "die Beine",
+            "eng":"leg"
+        },
+        {
+            "atk": "das",
+            "nom": "Gesicht",
+            "plu": "die Gesichter",
+            "eng":"face"
+        },
+        {
+            "atk": "das",
+            "nom": "Kinn",
+            "plu": "die Kinne",
+            "eng":"chin"
+        },
+        {
+            "atk": "der",
+            "nom": "Mund",
+            "plu": "die Münder",
+            "eng":"mouth"
+        },
+        {
+            "atk": "der",
+            "nom": "Lippe",
+            "plu": "die Lippen",
+            "eng":"lip"
+        },
+        {
+            "atk": "der",
+            "nom": "Zahn",
+            "plu": "die Zähne",
+            "eng":"tooth"
+        },
+        {
+            "atk": "die",
+            "nom": "Zunge",
+            "plu": "die Zungen",
+            "eng":"tongue"
+        },
+        {
+            "atk": "die",
+            "nom": "Nase",
+            "plu": "die Nasen",
+            "eng":"nose"
+        },
+        {
+            "atk": "die",
+            "nom": "Wange",
+            "plu": "die Wangen",
+            "eng":"cheek"
+        },
+        {
+            "atk": "das",
+            "nom": "Auge",
+            "plu": "die Augen",
+            "eng":"eye"
+        },
+        {
+            "atk": "die",
+            "nom": "Augenbraue",
+            "plu": "die Augenbrauen",
+            "eng":"eyebrow"
+        },
+        {
+            "atk": "die",
+            "nom": "Wimper",
+            "plu": "die Wimpern",
+            "eng":"eyelash"
+        },
+        {
+            "atk": "das",
+            "nom": "Ohr",
+            "plu": "die Ohren",
+            "eng":"ear"
+        },
+        {
+            "atk": "das",
+            "nom": "Haar",
+            "plu": "die Haare",
+            "eng":"hair"
+        },
+        {
+            "atk": "der",
+            "nom": "Bart",
+            "plu": "die Bärte",
+            "eng":"beard"
+        },
+        {
+            "atk": "der",
+            "nom": "Schnurrbart",
+            "plu": "die Schnurrbärte",
+            "eng":"mustache"
+        },
+        {
+            "atk": "der",
+            "nom": "Hals",
+            "plu": "die Hälse",
+            "eng":"neck"
+        },
+        {
+            "atk": "die",
+            "nom": "Schulter",
+            "plu": "die Schultern",
+            "eng":"shoulder"
+        },
+        {
+            "atk": "die",
+            "nom": "Brust",
+            "plu": "die Brüste",
+            "eng":"chest"
+        },
+        {
+            "atk": "der",
+            "nom": "Bauch",
+            "plu": "die Bäuche",
+            "eng":"belly"
+        },
+        {
+            "atk": "die",
+            "nom": "Hüfte",
+            "plu": "die Hüften",
+            "eng":"hip"
+        },
+        {
+            "atk": "der",
+            "nom": "Ellbogen",
+            "plu": "die Ellbogen",
+            "eng":"elbow"
+        },
+        {
+            "atk": "die",
+            "nom": "Hand",
+            "plu": "die Hände",
+            "eng":"hand"
+        },
+        {
+            "atk": "der",
+            "nom": "Finger",
+            "plu": "die Finger",
+            "eng":"finger"
+        },
+        {
+            "atk": "die",
+            "nom": "Achsel",
+            "plu": "die Achseln",
+            "eng":"armpit"
+        },
+        {
+            "atk": "der",
+            "nom": "Nagel",
+            "plu": "die Nägel",
+            "eng":"nail"
+        },
+        {
+            "atk": "das",
+            "nom": "Knie",
+            "plu": "die Knie",
+            "eng":"knee"
+        },
+        {
+            "atk": "der",
+            "nom": "Fuß",
+            "plu": "die Füße",
+            "eng":"foot"
+        },
+        {
+            "atk": "der",
+            "nom": "Zeh",
+            "plu": "die Zehen",
+            "eng":"toe"
+        },
+        {
+            "atk": "das",
+            "nom": "Herz",
+            "plu": "die Herzen",
+            "eng":"heart"
+        }
+    ]
+}

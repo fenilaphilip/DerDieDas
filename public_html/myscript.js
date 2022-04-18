@@ -1,18 +1,53 @@
 
+var category_names;
+var categories = {
+    "regellos": {
+        "article": "",
+        "category": "regellos",
+        "words": []
+    }
+};
+
+function shuffel_regellos_cards() {
+       
+    let words = categories["regellos"].words;
+        for (i = words.length - 1; i > 0; i--) {
+        let rand = get_random(i);
+        t = words[rand];
+        words[rand] = words[i];
+        words[i] = t;
+    }
+}
+
+function initialize_categories() {
+    $.get("data/categories.json", function (data, status) {
+        category_names = data;
+        console.log("Got categories : " + category_names);
+        for (i = 0; i < data.length; i++) {
+            let category_name = category_names[i];
+            $.get("data/" + category_name + ".json", function (data, status) {
+                categories[category_name] = data;
+                for (j = 0; j < data.words.length; j++) {
+                    categories.regellos.words.push(data.words[j]);
+                }
+            });
+
+            add_to_category_menu(category_name);
+        }
+        add_to_category_menu("regellos");
+    });
+}
+
+function add_to_category_menu(name) {
+    $("#categories-container").append("<li><a "
+            + "class=\"dropdown-item\" "
+            + "onclick= \"on_category_clicked('" + name + "')\" >"
+            + name + "</a></li>");
+}
 
 $(document).ready(function () {
     $("#game-area").hide();
-    $.get("data/categories.json", function (data, status) {
-        console.log(data);
-        for (i = 0; i < data.length; i++) {
-            console.log(data[i]);
-            let category = "<li><a "
-                    + "class=\"dropdown-item\" "
-                    + "onclick= \"on_category_clicked('" + data[i] + "')\" >"
-                    + data[i] + "</a></li>";
-            $("#categories-container").append(category);
-        }
-    });
+    initialize_categories();
     $("#der-button").click(function () {
         article_button_clicked("der");
     });
@@ -29,20 +64,19 @@ $(document).ready(function () {
 
 let cat_data;
 let now_displayed;
-function on_category_clicked(category) {
-    $.get("data/" + category + ".json", function (data, status) {
-        cat_data = data;
-        now_displayed = -1;
-        $("#openCategoryName").html(data.article + " " + data.category);
-        on_next_button_clicked();
-        $("#about").hide();
-        $("#how-to-play").hide();
-        $("#contact").hide();
-        $("#game-area").show();
-        $("#previous-button").hide();
-        $("#plural-panel").hide();
-    });
-
+function on_category_clicked(name) {
+    now_displayed = -1;
+    cat_data = categories[name];
+    if (name === "regellos") {
+        shuffel_regellos_cards();
+    }
+    $("#openCategoryName").html(cat_data.article + " " + cat_data.category);
+    on_next_button_clicked();
+    $("#about").hide();
+    $("#contact").hide();
+    $("#game-area").show();
+    $("#previgatewayous-button").hide();
+    $("#plural-panel").hide();
 }
 
 function on_next_button_clicked() {
@@ -78,23 +112,14 @@ function on_previous_button_clicked() {
 
 function nav_about_clicked() {
     $("#game-area").hide();
-    $("#how-to-play").hide();
     $("#contact").hide();
     $("#selection-category").hide();
     $("#about").show();
 }
 
-function nav_how_to_play_clicked() {
-    $("#game-area").hide();
-    $("#about").hide();
-    $("#contact").hide();
-    $("#how-to-play").show();
-
-}
 function nav_contact_clicked() {
     $("#game-area").hide();
     $("#about").hide();
-    $("#how-to-play").hide();
     $("#contact").show();
 }
 
@@ -125,4 +150,8 @@ function clicked_to_view_plural() {
     $("#plural-panel").show();
     $("#plural-panel").slideDown("slow");
     $("#plural-panel").html(cat_data.words[now_displayed].plu);
-}   
+}
+
+function get_random(max) {
+    return Math.floor(Math.random() * (max + 1));
+}

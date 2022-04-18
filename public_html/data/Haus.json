@@ -1,0 +1,91 @@
+{
+    "article": "Das",
+    "category": "Haus",
+    "plural": " Die Häuser", 
+    "words": [
+        {
+            "atk": "das",
+            "nom": "Bad",
+            "plu": "die Bäder ",
+            "eng": "bathroom"
+        },
+        {
+            "atk": "der",
+            "nom": "Balkon",
+            "plu": "die Balkone",
+            "eng": "balcony"
+        },
+        {
+            "atk": "die",
+            "nom": "Bibliothek",
+            "plu": "die Bibliotheken",
+            "eng": "library"
+        },
+        {
+            "atk": "die",
+            "nom": "Eingangshalle",
+            "plu": "die Eingangshallen ",
+            "eng": "entry way"
+        },
+        {
+            "atk": "der",
+            "nom": "Flur",
+            "plu": "die Flure ",
+            "eng": "hall"
+        },
+        {
+            "atk": "der",
+            "nom": "Garten",
+            "plu": "die Gärten ",
+            "eng": "garden"
+        },
+        {
+            "atk": "das",
+            "nom": "Gästezimmer",
+            "plu": "die Gästezimmer ",
+            "eng": "bathroom"
+        },
+        {
+            "atk": "der",
+            "nom": "Keller",
+            "plu": "die Keller ",
+            "eng": "basement"
+        },
+        {
+            "atk": "das",
+            "nom": "Kinderzimmer",
+            "plu": "die Kinderzimmer ",
+            "eng": "kid's room"
+        },
+        {
+            "atk": "die",
+            "nom": "Küche",
+            "plu": "die Küchen",
+            "eng": "Kitchen"
+        },
+        {
+            "atk": "das",
+            "nom": "Esszimmer",
+            "plu": "die Esszimmer",
+            "eng": "dining room"
+        },
+        {
+            "atk": "die",
+            "nom": "Toilette",
+            "plu": "die Toiletten ",
+            "eng": "toilet"
+        },
+        {
+            "atk": "das",
+            "nom": "Wohnzimmer",
+            "plu": "die wohnzimmer",
+            "eng": "living room"
+        },
+        {
+            "atk": "das",
+            "nom": "Schlafzimmer",
+            "plu": "die Schlafzimmer ",
+            "eng": "bedroom"
+        }
+    ]
+}
