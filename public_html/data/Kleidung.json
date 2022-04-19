@@ -1,0 +1,146 @@
+
+{
+     "article": "Die",
+    "category": "Kleidung",
+    "plural": " Die Kleidungen", 
+    "words": [
+        {
+            "atk": "der",
+            "nom": "Anzug",
+            "plu": "die Anzüge",
+            "eng":"suit"
+        },
+        {
+            "atk": "die",
+            "nom": "Bluse",
+            "plu": "die Blusen",
+            "eng":"blouse"
+        },
+        {
+            "atk": "die",
+            "nom": "Hose",
+            "plu": "die Hosen",
+            "eng":"pants"
+        },
+        {
+            "atk": "die",
+            "nom": "Jacke",
+            "plu": "die Jacken",
+            "eng":"jacket"
+        },
+        {
+            "atk": "der",
+            "nom": "Pullover",
+            "plu": "die Pullover",
+            "eng":"Pullover"
+        },
+        {
+            "atk": "die",
+            "nom": "Jeans",
+            "plu": "die Jeans",
+            "eng":"jeans"
+        },
+        {
+            "atk": "der",
+            "nom": "Rock",
+            "plu": "die Röcke",
+            "eng":"suit"
+        },
+        {
+            "atk": "der",
+            "nom": "Sweater",
+            "plu": "die Sweater",
+            "eng":"Sweater"
+        },
+        {
+            "atk": "das",
+            "nom": "Sweatshirt",
+            "plu": "die Sweatshirts",
+            "eng":"sweatshirt"
+        },
+        {
+            "atk": "das",
+            "nom": "Top",
+            "plu": "die Tops",
+            "eng":"top"
+        },
+        {
+            "atk": "das",
+            "nom": "T-shirt",
+            "plu": "die T-Shirts",
+            "eng":"t-shirt"
+        },
+        {
+            "atk": "die",
+            "nom": "Sandale",
+            "plu": "die Sandalen",
+            "eng":"sandel"
+        },
+        {
+            "atk": "der",
+            "nom": "Stiefel",
+            "plu": "die Stiefel",
+            "eng":"boot"
+        },
+        {
+            "atk": "der",
+            "nom": "Schuh",
+            "plu": "die Schuhe",
+            "eng":"shoe"
+        },
+        {
+            "atk": "der",
+            "nom": "Hausschuh",
+            "plu": "die Hausschuhe",
+            "eng":"house shoes"
+        },
+        {
+            "atk": "der",
+            "nom": "Mantel",
+            "plu": "die Mäntel",
+            "eng":"overcoat"
+        },
+        {
+            "atk": "der",
+            "nom": "Regenmantel",
+            "plu": "die Regenmäntel",
+            "eng":"rain coat"
+        },
+        {
+            "atk": "der",
+            "nom": "Binder",
+            "plu": "die Binder",
+            "eng":"necktie"
+        },
+        {
+            "atk": "der",
+            "nom": "Gürtel",
+            "plu": "die Gürtel",
+            "eng":"belt"
+        },
+        {
+            "atk": "der",
+            "nom": "Handschuh",
+            "plu": "die Handschuhe",
+            "eng":"gloves"
+        },
+        {
+            "atk": "der",
+            "nom": "Hut",
+            "plu": "die Hüte",
+            "eng":"hat"
+        },
+        {
+            "atk": "der",
+            "nom": "Schal",
+            "plu": "die Schale",
+            "eng":"scarf"
+        },
+        {
+            "atk": "die",
+            "nom": "Mütze",
+            "plu": "die Mützen",
+            "eng":"cap"
+        }
+    ]
+}
