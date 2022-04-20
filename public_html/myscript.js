@@ -75,7 +75,7 @@ function on_category_clicked(name) {
     $("#about").hide();
     $("#contact").hide();
     $("#game-area").show();
-    $("#previgatewayous-button").hide();
+    $("#previous-button").hide();
     $("#plural-panel").hide();
 }
 
